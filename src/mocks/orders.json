@@ -1,0 +1,29 @@
+[
+  {
+    "id": "ORD-1709123456",
+    "trackingCode": "VN123456",
+    "userId": "U-1",
+    "items": [
+      {
+        "productId": "p1",
+        "name": "Tôm sú Quảng Ninh loại 1",
+        "price": 390000,
+        "quantity": 2
+      }
+    ],
+    "total": 780000,
+    "status": "delivered",
+    "createdAt": "2024-02-20T10:00:00.000Z",
+    "updatedAt": "2024-02-22T14:30:00.000Z",
+    "address": "123 Nguyễn Huệ, Hạ Long, Quảng Ninh",
+    "phone": "0988123456",
+    "note": "Giao giờ hành chính",
+    "paymentMethod": "cod",
+    "timeline": [
+      { "status": "pending", "timestamp": "2024-02-20T10:00:00.000Z", "note": "Đơn hàng vừa được tạo" },
+      { "status": "processing", "timestamp": "2024-02-20T11:30:00.000Z", "note": "Đang chuẩn bị hàng" },
+      { "status": "shipping", "timestamp": "2024-02-21T08:00:00.000Z", "note": "Đã giao cho shipper" },
+      { "status": "delivered", "timestamp": "2024-02-22T14:30:00.000Z", "note": "Đã giao thành công" }
+    ]
+  }
+]

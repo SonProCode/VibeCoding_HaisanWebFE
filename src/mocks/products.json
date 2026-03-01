@@ -1,0 +1,205 @@
+[
+  {
+    "id": "p1",
+    "slug": "tom-su-quang-ninh-loai-1",
+    "name": "Tôm sú Quảng Ninh loại 1",
+    "description": "Tôm sú size 20-25 con/kg, đánh bắt trong ngày, đóng gói chuẩn lạnh. Nguồn gốc Vịnh Hạ Long.",
+    "origin": "Vịnh Hạ Long, Quảng Ninh",
+    "price": 420000,
+    "salePrice": 390000,
+    "isFresh": true,
+    "isBestSeller": true,
+    "isOnSale": true,
+    "badges": ["Tươi sống", "Bán chạy", "Khuyến mãi"],
+    "category": "shrimp",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1604908176997-1251884b08a7?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1604908177225-6cce8cd7c5ed?w=400",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400"
+    ],
+    "stock": 50,
+    "rating": 4.8,
+    "ratingCount": 124
+  },
+  {
+    "id": "p2",
+    "slug": "cua-xanh-ha-long",
+    "name": "Cua xanh Hạ Long",
+    "description": "Cua xanh tươi sống, size 3-4 con/kg. Thịt chắc, ngọt, đặc sản vùng biển Quảng Ninh.",
+    "origin": "Hạ Long, Quảng Ninh",
+    "price": 380000,
+    "isFresh": true,
+    "isBestSeller": true,
+    "isOnSale": false,
+    "badges": ["Tươi sống", "Bán chạy"],
+    "category": "crab",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1559847844-5315695dadae?w=400"
+    ],
+    "stock": 30,
+    "rating": 4.7,
+    "ratingCount": 89
+  },
+  {
+    "id": "p3",
+    "slug": "muc-ong-tuoi",
+    "name": "Mực ống tươi",
+    "description": "Mực ống tươi size 3-4 con/kg. Sơ chế sạch, đóng gói lạnh, giao trong ngày.",
+    "origin": "Cô Tô, Quảng Ninh",
+    "price": 280000,
+    "salePrice": 250000,
+    "isFresh": true,
+    "isBestSeller": false,
+    "isOnSale": true,
+    "badges": ["Tươi sống", "Khuyến mãi"],
+    "category": "squid",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400"
+    ],
+    "stock": 40,
+    "rating": 4.6,
+    "ratingCount": 56
+  },
+  {
+    "id": "p4",
+    "slug": "ca-thu-van-don",
+    "name": "Cá thu Vân Đồn",
+    "description": "Cá thu tươi, fillet sẵn. Nguồn gốc Vân Đồn, đánh bắt gần bờ.",
+    "origin": "Vân Đồn, Quảng Ninh",
+    "price": 320000,
+    "isFresh": true,
+    "isBestSeller": true,
+    "isOnSale": false,
+    "badges": ["Tươi sống", "Bán chạy"],
+    "category": "fish",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1544943910-4c1dc557fe7c?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1544943910-4c1dc557fe7c?w=400"
+    ],
+    "stock": 25,
+    "rating": 4.9,
+    "ratingCount": 78
+  },
+  {
+    "id": "p5",
+    "slug": "hau-sua-bien",
+    "name": "Hàu sữa biển",
+    "description": "Hàu sữa tươi sống, size 4-5 con/kg. Giàu kẽm, bổ dưỡng.",
+    "origin": "Hạ Long, Quảng Ninh",
+    "price": 150000,
+    "isFresh": true,
+    "isBestSeller": false,
+    "isOnSale": false,
+    "badges": ["Tươi sống"],
+    "category": "clam",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1574781330852-d6a7cf8d9812?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1574781330852-d6a7cf8d9812?w=400"
+    ],
+    "stock": 60,
+    "rating": 4.5,
+    "ratingCount": 42
+  },
+  {
+    "id": "p6",
+    "slug": "ngao-trang-quang-yen",
+    "name": "Ngao trắng Quảng Yên",
+    "description": "Ngao trắng tươi, thích hợp hấp sả, nấu canh chua, giá hợp lý cho gia đình.",
+    "origin": "Quảng Yên, Quảng Ninh",
+    "price": 90000,
+    "isFresh": true,
+    "isBestSeller": false,
+    "isOnSale": true,
+    "salePrice": 80000,
+    "badges": ["Tươi sống", "Giá tốt"],
+    "category": "clam",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1559815187-98c1e9e5c877?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1559815187-98c1e9e5c877?w=400"
+    ],
+    "stock": 80,
+    "rating": 4.4,
+    "ratingCount": 35
+  },
+  {
+    "id": "p7",
+    "slug": "tom-the-chan-trang",
+    "name": "Tôm thẻ chân trắng",
+    "description": "Tôm thẻ tươi, size 40-50 con/kg, phù hợp nướng, hấp, rim mặn ngọt.",
+    "origin": "Vân Đồn, Quảng Ninh",
+    "price": 220000,
+    "isFresh": true,
+    "isBestSeller": true,
+    "isOnSale": false,
+    "badges": ["Tươi sống", "Bán chạy"],
+    "category": "shrimp",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1604908553729-bb4f8a66f769?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1604908553729-bb4f8a66f769?w=400"
+    ],
+    "stock": 70,
+    "rating": 4.7,
+    "ratingCount": 63
+  },
+  {
+    "id": "p8",
+    "slug": "muc-la-cao-cap",
+    "name": "Mực lá cao cấp",
+    "description": "Mực lá dày mình, nhiều nạc, thích hợp nướng than hoa hoặc áp chảo.",
+    "origin": "Cô Tô, Quảng Ninh",
+    "price": 350000,
+    "isFresh": true,
+    "isBestSeller": false,
+    "isOnSale": true,
+    "salePrice": 330000,
+    "badges": ["Tươi sống", "Khuyến mãi"],
+    "category": "squid",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1553621042-f6e147245754?w=400"
+    ],
+    "stock": 35,
+    "rating": 4.6,
+    "ratingCount": 51
+  },
+  {
+    "id": "p9",
+    "slug": "ca-song-hap-xi-dau",
+    "name": "Cá song nguyên con",
+    "description": "Cá song tươi, sống bể, rất phù hợp hấp xì dầu, thịt ngọt, ít xương dăm.",
+    "origin": "Vịnh Hạ Long, Quảng Ninh",
+    "price": 420000,
+    "isFresh": true,
+    "isBestSeller": true,
+    "isOnSale": false,
+    "badges": ["Tươi sống", "Nhà hàng ưa chuộng"],
+    "category": "fish",
+    "thumbnailUrl": "https://images.unsplash.com/photo-1510130387422-82bed34b37e3?w=400",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1510130387422-82bed34b37e3?w=400"
+    ],
+    "stock": 20,
+    "rating": 4.9,
+    "ratingCount": 91
+  },
+  {
+    "id": "p10",
+    "slug": "cang-cua-ghe-dong-lanh",
+    "name": "Càng cua ghẹ đông lạnh nhanh",
+    "description": "Càng cua ghẹ sơ chế sẵn, cấp đông nhanh giữ trọn vị ngọt, tiện lợi chế biến.",
+    "origin": "Quảng Ninh",
+    "price": 260000,
+    "isFresh": false,
+    "isBestSeller": false,
+    "isOnSale": false,
+    "badges": ["Đã sơ chế", "Tiện lợi"],
+    "category": "crab",
+    "thumbnailUrl": "",
+    "galleryUrls": [],
+    "stock": 45,
+    "rating": 4.3,
+    "ratingCount": 27
+  }
+]

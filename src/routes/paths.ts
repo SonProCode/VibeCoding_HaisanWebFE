@@ -1,0 +1,16 @@
+export const paths = {
+  home: "/",
+  products: "/products",
+  productDetail: (slug: string) => `/products/${slug}`,
+  cart: "/cart",
+  checkout: "/checkout",
+  tracking: "/tracking",
+  login: "/auth/login",
+  register: "/auth/register",
+  userDashboard: "/user",
+  admin: "/admin",
+  adminProducts: "/admin/products",
+  adminOrders: "/admin/orders",
+  adminUsers: "/admin/users",
+  adminStats: "/admin/stats",
+} as const;

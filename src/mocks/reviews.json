@@ -1,0 +1,23 @@
+[
+  {
+    "id": "r1",
+    "userName": "Nguyễn Minh T.",
+    "rating": 5,
+    "content": "Hải sản rất tươi, đóng gói cẩn thận. Giao đúng hẹn, sẽ ủng hộ lâu dài!",
+    "date": "2024-02-15"
+  },
+  {
+    "id": "r2",
+    "userName": "Lê Thu H.",
+    "rating": 5,
+    "content": "Tôm sú ngon, size đều. Nguồn gốc rõ ràng, yên tâm cho gia đình.",
+    "date": "2024-02-18"
+  },
+  {
+    "id": "r3",
+    "userName": "Phạm Văn C.",
+    "rating": 4,
+    "content": "Cua xanh tươi, giá hợp lý. Chỉ mong giao nhanh hơn chút.",
+    "date": "2024-02-20"
+  }
+]

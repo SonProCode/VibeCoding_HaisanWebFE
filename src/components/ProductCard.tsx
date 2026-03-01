@@ -54,12 +54,15 @@ export const ProductCard = ({ product }: { product: Product }) => {
           {inWishlist ? "❤️" : "🤍"}
         </button>
         {product.isOnSale && (
-          <Badge className="absolute left-2 top-2 bg-red-500/90 text-white">
-            Khuyến mãi
+          <Badge className="absolute left-2 top-2 bg-red-600 text-white shadow-md ring-1 ring-white/70">
+            -{Math.round(
+              ((product.price - (product.salePrice ?? product.price)) / product.price) * 100
+            ) || 10}
+            %
           </Badge>
         )}
-        {product.isBestSeller && (
-          <Badge className="absolute left-2 bottom-2 bg-amber-500/90 text-white">
+        {product.isBestSeller && !product.isOnSale && (
+          <Badge className="absolute left-2 top-2 bg-amber-500 text-slate-900 shadow-md ring-1 ring-white/70">
             Bán chạy
           </Badge>
         )}

@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { MainLayout } from "@/layouts/MainLayout";
 import { HeroSlider } from "@/components/HeroSlider";
 import { ProductCard } from "@/components/ProductCard";
-import { BannerFlashSale } from "@/components/BannerFlashSale";
 import { ReviewSection } from "@/components/ReviewSection";
 import { ChatSupportWidget } from "@/components/ChatSupportWidget";
 import { useProductStore } from "@/store/productStore";
@@ -23,7 +22,6 @@ const HomePage = () => {
     <MainLayout>
       <div className="space-y-10">
         <HeroSlider />
-        <BannerFlashSale />
         <section>
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-lg font-semibold text-slate-800">

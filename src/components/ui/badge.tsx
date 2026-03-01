@@ -12,7 +12,7 @@ export const Badge = ({
 }) => (
   <span
     className={clsx(
-      "inline-flex items-center rounded-full bg-sky-100 px-2 py-0.5 text-xs font-medium text-sky-700",
+      "inline-flex items-center rounded-full bg-sky-600 px-2.5 py-0.5 text-[11px] font-semibold text-white shadow-sm",
       className
     )}
   >

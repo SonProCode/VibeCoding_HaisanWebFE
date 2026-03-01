@@ -4,20 +4,23 @@
  import Link from "next/link";
  import { paths } from "@/routes/paths";
 
- const SLIDES = [
+const DEFAULT_SLIDE_IMAGE =
+  "https://images.unsplash.com/photo-1604908176997-1251884b08a7?w=1200&auto=format&fit=crop&q=80";
+
+const SLIDES = [
    {
      id: 1,
      title: "Hải sản tươi sống Quảng Ninh",
      subtitle: "Đánh bắt trong ngày – Giao nhanh trong 2 giờ tại Hạ Long & Hà Nội.",
      image:
-       "https://images.unsplash.com/photo-1604908176997-1251884b08a7?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1604908176997-1251884b08a7?w=1200&auto=format&fit=crop&q=80",
    },
    {
      id: 2,
      title: "Đặc sản biển cao cấp",
      subtitle: "Tôm, cua, ghẹ, mực… chọn lọc từ vùng biển Hạ Long, Vân Đồn, Cô Tô.",
      image:
-       "https://images.unsplash.com/photo-1581388847562-dce7a847f914?w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&auto=format&fit=crop&q=80",
    },
    {
      id: 3,
@@ -58,8 +61,13 @@
        <div className="relative h-[260px] w-full md:h-[340px]">
          <img
            key={current.id}
-           src={current.image}
+           src={current.image || DEFAULT_SLIDE_IMAGE}
            alt={current.title}
+           onError={(e) => {
+             if (e.currentTarget.src !== DEFAULT_SLIDE_IMAGE) {
+               e.currentTarget.src = DEFAULT_SLIDE_IMAGE;
+             }
+           }}
            className="h-full w-full object-cover transition-transform duration-700 ease-out"
          />
          <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/60 to-transparent" />
@@ -102,23 +110,25 @@
            </div>
          </div>
 
-         {/* Controls */}
-         <button
-           type="button"
-           aria-label="Slide trước"
-           onClick={() => goTo(index - 1)}
-           className="absolute left-4 top-1/2 z-20 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-slate-900/70 text-sm text-white shadow-md hover:bg-slate-800/90"
-         >
-           ‹
-         </button>
-         <button
-           type="button"
-           aria-label="Slide tiếp theo"
-           onClick={() => goTo(index + 1)}
-           className="absolute right-4 top-1/2 z-20 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-slate-900/70 text-sm text-white shadow-md hover:bg-slate-800/90"
-         >
-           ›
-         </button>
+        {/* Controls */}
+        <div className="absolute bottom-10 left-1/2 z-20 flex -translate-x-1/2 gap-3">
+          <button
+            type="button"
+            aria-label="Slide trước"
+            onClick={() => goTo(index - 1)}
+            className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900/60 text-xs text-white shadow-md ring-1 ring-white/40 hover:bg-slate-800/90"
+          >
+            ‹
+          </button>
+          <button
+            type="button"
+            aria-label="Slide tiếp theo"
+            onClick={() => goTo(index + 1)}
+            className="flex h-8 w-8 items-center justify-center rounded-full bg-slate-900/60 text-xs text-white shadow-md ring-1 ring-white/40 hover:bg-slate-800/90"
+          >
+            ›
+          </button>
+        </div>
 
          {/* Dots */}
          <div className="absolute bottom-4 left-0 right-0 z-20 flex justify-center gap-2">

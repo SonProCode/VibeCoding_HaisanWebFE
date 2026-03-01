@@ -28,9 +28,21 @@ const AdminUsersPage = () => {
 
   return (
     <AdminLayout>
-      <h2 className="mb-4 text-base font-semibold text-slate-800">
-        Quản lý người dùng
-      </h2>
+      <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+        <h2 className="text-base font-semibold text-slate-900">
+          Quản lý người dùng
+        </h2>
+        <Button
+          type="button"
+          variant="primary"
+          className="h-9 px-4 text-xs font-semibold"
+          onClick={() =>
+            showToast("Form thêm người dùng mới sẽ được bổ sung.", "info")
+          }
+        >
+          + Thêm người dùng mới
+        </Button>
+      </div>
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
         <table className="w-full text-sm">
           <thead>

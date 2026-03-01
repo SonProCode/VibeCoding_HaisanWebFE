@@ -29,9 +29,21 @@ const AdminProductsPage = () => {
 
   return (
     <AdminLayout>
-      <h2 className="mb-4 text-base font-semibold text-slate-800">
-        Quản lý sản phẩm
-      </h2>
+      <div className="mb-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+        <h2 className="text-base font-semibold text-slate-900">
+          Quản lý sản phẩm
+        </h2>
+        <Button
+          type="button"
+          variant="primary"
+          className="h-9 px-4 text-xs font-semibold"
+          onClick={() =>
+            showToast("Form thêm sản phẩm mới sẽ được bổ sung.", "info")
+          }
+        >
+          + Thêm sản phẩm mới
+        </Button>
+      </div>
       {loading ? (
         <Skeleton className="h-64 w-full" />
       ) : (
